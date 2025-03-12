@@ -15,6 +15,7 @@ Este código deve ser utilizado **apenas para fins educativos e dentro de um amb
 2. O script **gera uma chave AES-256 aleatória** e criptografa o arquivo usando **AES no modo CTR**.
 3. O arquivo original é **substituído por uma versão criptografada (`.locked`)**.
 4. O script também possui a função de **descriptografar o arquivo** caso a chave correta seja usada.
+5. A chave foi pré definida como 123456 para facilitar
 
 ---
 
@@ -44,6 +45,7 @@ echo "Este é um arquivo de teste para criptografia." > foto.txt
 
 ## Executar o script
 python3 ransomware_simulado.py
+
 
 
 
